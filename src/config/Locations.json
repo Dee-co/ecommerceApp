@@ -1,0 +1,358 @@
+[
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.243273",
+        "category": "curbside_pickup",
+        "createdAt": "2025-07-09T12:12:19.739Z",
+        "LocationId": "L_1752063139739",
+        "latitude": "12.978622",
+        "deliboName": "",
+        "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "guptabavan"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "77.97094969999999",
+        "category": "curbside_pickup",
+        "createdAt": "2025-07-10T13:16:38.291Z",
+        "LocationId": "L_1752153398291",
+        "latitude": "10.3586085",
+        "deliboName": "",
+        "address": "begambur, dindigul, tamil nadu, india, 624001. ",
+        "city": "dindigul",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "624001",
+        "societyName": "dindigul venu briyani"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            }
+        ],
+        "longitude": "78.422736",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T13:53:56.933Z",
+        "LocationId": "L_8C1F6463D901",
+        "deliboMacId": "L_8C1F6463D901",
+        "latitude": "17.4144064",
+        "deliboName": "cafe niloufer banjara hills",
+        "address": "amn, 8-2-685/p2 & p3, road no. 12, venkateswara colony, banjara hills, hyderabad, telangana 500034",
+        "city": "hyderabad",
+        "state": "telangana",
+        "country": "india",
+        "postalCode": "500034",
+        "societyName": "cafe niloufer banjara hills"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    },
+    {
+        "categoryIds": [
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951900"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949964995"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949963506"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949966777"
+            },
+            {
+                "slrCount": 1,
+                "tci": "TCI-1725949951901"
+            }
+        ],
+        "longitude": "80.250580",
+        "category": "curbside_delibo",
+        "createdAt": "2025-07-11T07:25:06.315Z",
+        "LocationId": "L_8C1F64A77004",
+        "deliboMacId": "L_8C1F64A77004",
+        "latitude": "12.9706844",
+        "deliboName": "coworks perungudi",
+        "address": "6th floor, sterling technopolis, trendworks, 4/293, omr, bethel nagar, perungudi",
+        "city": "chennai",
+        "state": "tamil nadu",
+        "country": "india",
+        "postalCode": "600096",
+        "societyName": "coworks perungudi"
+    }
+]
