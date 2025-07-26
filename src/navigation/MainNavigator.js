@@ -14,6 +14,7 @@ import Login from '../screens/Login';
 import Main from '../screens/Main';
 import Otp from '../screens/Otp';
 import Location from '../screens/Location';
+import OrderDetails from '../screens/OrderDetail';
 const Stack = createStackNavigator();
 const MainNavigator = () => {
   return (
@@ -45,6 +46,11 @@ const MainNavigator = () => {
             name="Location"
             options={{ headerShown: false,}}
             component={Location}
+          />
+          <Stack.Screen
+            name="OrderDetails"
+            options={{ headerShown: false,}}
+            component={OrderDetails}
           />
         </Stack.Navigator>
       </NavigationContainer>

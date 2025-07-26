@@ -1,0 +1,602 @@
+[
+    {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI17535059950321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },
+     {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI1753506589950321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },
+     {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI175345059950321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },  {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI175350659950321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },
+     {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI17534505995430321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },  {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI1753506599503241",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    },
+     {
+        "sellingLocationId": "L_8C1F64A77004",
+        "totalPrice": 1298,
+        "orderId": "MOI1753245059950321",
+        "status": "order_placed",
+        "brandName": "tasty vibes",
+        "createdAt": "2025-07-26T04:59:57.133Z",
+        "deliverAddress": {
+            "country": "india",
+            "address": "6th floor, arihant technopolis, 4/293, rajiv gandhi salai, perungudi, chennai, tamil nadu 600096",
+            "city": "600096",
+            "postalCode": "600096",
+            "latitude": 12.9706602,
+            "userName": "Deepak",
+            "type": "Home",
+            "nearBy": "NA",
+            "phoneNumber": "9399909989",
+            "flat": "NA",
+            "state": "NA",
+            "floor": "NA",
+            "email": "notapplicable@email.com",
+            "longitude": 80.2477621
+        },
+        "deliboDeliverDetails": {
+            "deliboLocationId": "L_8C1F64A77004",
+            "latitude": "12.9706602",
+            "longitude": "80.2477621",
+            "LocationName": "trendworks"
+        },
+        "category": "curbside_delibo",
+        "sellerAccId": "DOTC50078834485",
+        "cartItems": [
+            {
+                "gstAmount": 18,
+                "marketPrice": 120,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1750147734-3E544D8578/2cb867b2-c235-4e3c-9e5b-35a9b4f97580.jpeg",
+                "alwaysInventory": true,
+                "vrntIndexNo": 0,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg briyani",
+                "vrntId": "1750147734-3E544D8578",
+                "soi": "SOIIXBBVLCD000",
+                "includingTAX": true,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "sts": null,
+                "price": 100,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            },
+            {
+                "gstAmount": 180,
+                "marketPrice": 1200,
+                "prdtImg": "https://delibo-app-storage-dev.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DOTC50078834485/productImages/1750147733-25C446AA6D/1751954888-9A4C62B8C3/b7ff66b9-4027-4e57-8bfd-38af56b1da28.png",
+                "alwaysInventory": false,
+                "vrntIndexNo": 1,
+                "tax": {
+                    "value": "18",
+                    "label": "GST18 [18%]"
+                },
+                "prdtName": "Veg Briyani",
+                "vrntId": "1751954888-9A4C62B8C3",
+                "soi": "SOILITWJGIU001",
+                "includingTAX": true,
+                "unit": {
+                    "value": "kg",
+                    "label": "Kilograms"
+                },
+                "sts": null,
+                "price": 1000,
+                "qnty": 1,
+                "prdtId": "1750147733-25C446AA6D",
+                "tci": "TCI-1725428409586",
+                "tcn": "Food"
+            }
+        ],
+        "deliverType": "DELDIL",
+        "buyerAccId": "+919399909989"
+    }
+]
