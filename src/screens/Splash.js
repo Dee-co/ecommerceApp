@@ -10,7 +10,8 @@ const Splash = () => {
         console.log("getting redux data", authData)
         setTimeout(()=>{
             if(authData.data === null){
-            navigation.replace('Login')
+            // navigation.replace('Login')
+            navigation.replace('Main')
             }else{
             navigation.replace('Main')
 

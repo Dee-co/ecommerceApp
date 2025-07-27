@@ -13,11 +13,13 @@ const CustomInput = ({
   maxLength,
   height,
   lucideIcon,
+  style,
+  onFocus
 }) => {
   
   return (
     <View
-      style={{
+      style={[{
         width: '100%',
         height: height || 50,
         borderWidth: 1,
@@ -27,7 +29,7 @@ const CustomInput = ({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 10,
-      }}>
+      },{...style}]}>
       {icon && (
         <Image
           source={icon}
@@ -46,6 +48,7 @@ const CustomInput = ({
         onChangeText={txt => {
           onChangeText(txt);
         }}
+        onFocus={onFocus}
       />
     </View>
   );

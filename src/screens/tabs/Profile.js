@@ -1,97 +1,88 @@
-import React, { useState } from 'react';
-import {
-  SafeAreaView,
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-} from 'react-native';
-import { ArrowLeft, RotateCw } from 'lucide-react-native';
-
+import React, { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { useIsFocused, useNavigation } from '@react-navigation/native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import LinearGradient from 'react-native-linear-gradient';
+import { Pencil, LogOut, Camera, CheckCircle, MapPinHouse } from 'lucide-react-native';
+import { BG, BG1 } from '../../utils/Colors';
+import Loader from '../../component/Loader';
 const Profile = () => {
-  const [profile, setProfile] = useState({
+  const navigation = useNavigation();
+  const [loading, setLoading] = useState(false);
+  const [userDetails, setUserDetails] = useState({});
+  const isFocused = useIsFocused();
+  const profileData = {
+    id: '22ef904e-6d53-45c4-b86e-69efb14a423f',
     UserName: 'Deepak',
-    UserEmail: '',
+    UserEmail: 'deepak.delibo@gmail.com',
     UserAddress: '',
     UserMobile: '+919399909989',
-    UserEmailVerified: false,
-  });
-
-  const handleChange = (field, value) => {
-    setProfile({ ...profile, [field]: value });
+    UserEmailVerified: true,
+    NotificationsOpted: [],
+    createdAt: '2025-06-24T11:18:21.207Z',
+    privateDelibo: false,
+    m_pin_req: false,
+    vehicleNo: [],
   };
 
-  const handleSubmit = () => {
-    console.log('Submitted Profile:', profile);
+  useEffect(() => {
+    setUserDetails({
+      userName: profileData.UserName,
+      email: profileData.UserEmail,
+      mobile: profileData.UserMobile,
+    });
+  }, [isFocused]);
+  const handleEditProfile = () => {
+    navigation.navigate('EditProfile');
+    // navigation.navigate('Address');
   };
-
   return (
-    <SafeAreaView style={styles.safeArea}>
-      <View style={styles.header}>
-        <TouchableOpacity>
-          <ArrowLeft color="black" />
-        </TouchableOpacity>
-        <Text style={styles.headerTitle}>My Profile</Text>
-        <View style={{ width: 24 }} />
+    <SafeAreaView style={styles.container}>
+      {/* Profile Initial */}
+      <View style={styles.profileWrapper}>
+        <LinearGradient colors={[BG, BG1]} style={styles.profileView}>
+          <Text style={styles.profileInitial}>
+            {userDetails?.userName?.charAt(0)?.toUpperCase() || 'U'}
+          </Text>
+        </LinearGradient>
       </View>
 
-      <ScrollView contentContainerStyle={styles.container}>
-        {/* Name */}
-        <View style={styles.labelRow}>
-          <Text style={styles.label}>Name</Text>
-          <Text style={styles.required}> *</Text>
-        </View>
-        <TextInput
-          style={styles.input}
-          value={profile.UserName}
-          onChangeText={(text) => handleChange('UserName', text)}
-        />
+      {/* Info */}
+      <Text style={styles.userName}>{userDetails?.userName}</Text>
+      <Text style={styles.mobile}>{userDetails?.mobile}</Text>
+      <View style={styles.emailSection}>
+        <Text style={styles.email}>{userDetails?.email}</Text>
+        <CheckCircle size={15} color={'green'} />
+      </View>
 
-        {/* Mobile */}
-        <View style={styles.labelRow}>
-          <Text style={styles.label}>Mobile</Text>
-          <Text style={styles.required}> *</Text>
-        </View>
-        <TextInput
-          style={[styles.input, { color: '#999' }]}
-          value={profile.UserMobile}
-          editable={false}
-        />
-
-        {/* Email */}
-        <Text style={styles.label}>Email</Text>
-        <View style={styles.emailRow}>
-          <TextInput
-            style={[styles.input, { flex: 1 }]}
-            value={profile.UserEmail}
-            onChangeText={(text) => handleChange('UserEmail', text)}
-            keyboardType="email-address"
-            autoCapitalize="none"
-          />
-          <TouchableOpacity style={styles.refreshIcon}>
-            <RotateCw size={18} color="orange" />
-          </TouchableOpacity>
-        </View>
-        {!profile.UserEmailVerified && (
-          <Text style={styles.unverifiedText}>Unverified</Text>
-        )}
-
-        {/* Address */}
-        <Text style={styles.label}>Address</Text>
-        <TextInput
-          style={[styles.input, { height: 100, textAlignVertical: 'top' }]}
-          value={profile.UserAddress}
-          onChangeText={(text) => handleChange('UserAddress', text)}
-          multiline
-        />
-
-        {/* Submit */}
-        <TouchableOpacity style={styles.button} onPress={handleSubmit}>
-          <Text style={styles.buttonText}>Submit</Text>
+      {/* Edit Profile Button */}
+      <LinearGradient colors={['#e7eaee','#f3f4f6']} style={styles.btn}>
+        <TouchableOpacity
+          style={[styles.btn, styles.editBtn]}
+          onPress={handleEditProfile}
+        >
+          <Pencil color="black" size={16} style={{ marginRight: 6 }} />
+          <Text style={styles.editText}>Edit Profile</Text>
         </TouchableOpacity>
-      </ScrollView>
+      </LinearGradient>
+
+      {/* Logout Button */}
+      <LinearGradient colors={['#e7eaee','#f3f4f6']} style={styles.btn}>
+        <TouchableOpacity style={[styles.btn, styles.editBtn]}>
+          <MapPinHouse color="black" size={16} style={{ marginRight: 6 }} />
+          <Text style={styles.editText}>Address</Text>
+        </TouchableOpacity>
+      </LinearGradient>
+
+      {/* Logout Button */}
+      <LinearGradient colors={['#fef1f2','#fddad9']} style={styles.btn}>
+        <TouchableOpacity style={[styles.btn, styles.logoutBtn]}>
+          <LogOut color="#f04e4d" size={16} style={{ marginRight: 6 }} />
+          <Text style={styles.logoutText}>Logout</Text>
+        </TouchableOpacity>
+      </LinearGradient>
+
+      <Loader visible={loading} />
     </SafeAreaView>
   );
 };
@@ -99,72 +90,85 @@ const Profile = () => {
 export default Profile;
 
 const styles = StyleSheet.create({
-  safeArea: {
-    backgroundColor: '#fff',
-  },
-  header: {
-    height: 50,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 15,
-    borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
-  },
-  headerTitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: 'orange',
-  },
   container: {
-    padding: 15,
-  },
-  labelRow: {
-    flexDirection: 'row',
-    marginTop: 15,
-    marginBottom: 5,
-    alignItems: 'center',
-  },
-  label: {
-    fontWeight: '600',
-    fontSize: 14,
-  },
-  required: {
-    color: 'orange',
-    fontSize: 14,
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 6,
-    paddingHorizontal: 10,
-    paddingVertical: 10,
     backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  emailRow: {
+
+  profileWrapper: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  profileView: {
+    width: 110,
+    height: 110,
+    borderRadius: 55,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  profileInitial: {
+    fontSize: 48,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  userName: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 10,
+    color: '#000',
+  },
+  mobile: {
+    fontSize: 16,
+    textAlign: 'center',
+    color: '#555',
+    marginTop: 3,
+  },
+  emailSection: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 5,
+    marginTop: 3,
+    marginBottom: 10,
   },
-  refreshIcon: {
-    marginLeft: 8,
-    padding: 6,
+  email: {
+    fontSize: 16,
+    textAlign: 'center',
+    color: '#777',
   },
-  unverifiedText: {
-    color: 'red',
-    fontSize: 12,
-    marginTop: 4,
-    marginLeft: 2,
+  btn: {
+    width: '100%',
+    height: 40,
+    alignSelf: 'center',
+    marginTop: 10,
+    borderRadius: 10,
   },
-  button: {
-    backgroundColor: '#ec8703',
-    paddingVertical: 14,
+  editBtn: {
+    flexDirection: 'row',
+    justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 6,
-    marginTop: 30,
+    gap:5,
+    marginTop: 0,
+    backgroundColor:"#e7eaee"
   },
-  buttonText: {
-    color: '#fff',
-    fontWeight: '600',
+  logoutBtn:{
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap:5,
+    marginTop: 0,
+    backgroundColor:"#fef1f2"
+  },
+  editText: {
+    color: '#404955',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  logoutText: {
+    color: '#f04e4d',
+    fontWeight: 'bold',
     fontSize: 16,
   },
 });
