@@ -21,8 +21,6 @@ import AddAddress from '../screens/AddAddress';
 const Stack = createStackNavigator();
 const MainNavigator = () => {
   return (
-    <SafeAreaView style={styles.safeArea}>
-      <StatusBar backgroundColor="#fff" barStyle="dark-content" />
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
@@ -72,13 +70,9 @@ const MainNavigator = () => {
           />
         </Stack.Navigator>
       </NavigationContainer>
-    </SafeAreaView>
   );
 };
 const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
+  
 });
 export default MainNavigator;

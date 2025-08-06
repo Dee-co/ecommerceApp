@@ -33,7 +33,8 @@ const Profile = () => {
     });
   }, [isFocused]);
   const handleEditProfile = () => {
-    navigation.navigate('EditProfile');
+    navigation.navigate('Main', { screen: 'CartTab' });
+    // navigation.navigate('EditProfile');
     // navigation.navigate('Address');
   };
   return (

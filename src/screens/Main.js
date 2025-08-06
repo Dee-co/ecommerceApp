@@ -1,21 +1,20 @@
+import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity,
   Platform,
+  StatusBar,
+  Dimensions,
 } from 'react-native';
-import React, { useState } from 'react';
-import { BG, THEME_COLOR } from '../utils/Colors';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 import Profile from './tabs/Profile';
-import GlobalStyles from '../component/GlobalStyles';
 import Home from './tabs/Home';
 import Menu from './tabs/Menu';
 import Cart from './tabs/Cart';
 import Order from './tabs/Order';
-
-// ✅ Import Lucide icons
+import { BG } from '../utils/Colors';
 import {
   Home as HomeIcon,
   List,
@@ -23,64 +22,106 @@ import {
   ShoppingCart,
   User,
 } from 'lucide-react-native';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+
+const { height: SCREEN_HEIGHT } = Dimensions.get('window');
+
+const tabs = [
+  { label: 'Home', icon: HomeIcon, route: 'HomeTab', component: <Home /> },
+  { label: 'Menu', icon: List, route: 'MenuTab', component: <Menu /> },
+  { label: 'Orders', icon: ShoppingBag, route: 'OrderTab', component: <Order /> },
+  { label: 'Cart', icon: ShoppingCart, route: 'CartTab', component: <Cart /> },
+  { label: 'Profile', icon: User, route: 'ProfileTab', component: <Profile /> },
+];
 
 const Main = () => {
-  const [selectedTab, setSelectedTab] = useState(0);
   const navigation = useNavigation();
+  const insets = useSafeAreaInsets();
+  const route = useRoute();
+  const [currentRoute, setCurrentRoute] = useState('HomeTab');
 
-  const tabs = [
-    { label: 'Home', icon: HomeIcon, component: <Home /> },
-    { label: 'Menu', icon: List, component: <Menu /> },
-    { label: 'Orders', icon: ShoppingBag, component: <Order /> },
-    { label: 'Cart', icon: ShoppingCart, component: <Cart /> },
-    { label: 'Profile', icon: User, component: <Profile /> },
-  ];
+  useEffect(() => {
+    if (route.params?.screen) {
+      const matchedTab = tabs.find(tab => tab.route === route.params.screen);
+      if (matchedTab) {
+        setCurrentRoute(route.params.screen);
+      }
+    }
+  }, [route.params?.screen]);
 
   const renderContent = () => {
-    return tabs[selectedTab]?.component || <Home />;
+    const tab = tabs.find(tab => tab.route === currentRoute);
+    return tab?.component || <Home />;
   };
 
   return (
-    <View style={[GlobalStyles.container, { flex: 1, position: 'relative' }]}>
-      <View style={GlobalStyles.innerContainer}>
-        <View>{renderContent()}</View>
-      </View>
+    <>
+      {/* ✅ Status Bar */}
+      <StatusBar barStyle="dark-content" backgroundColor="#FFD700" translucent={false} />
 
-      {/* Bottom Navigation */}
-      <View style={styles.bottomNav}>
-        {tabs.map((tab, index) => {
-          const Icon = tab.icon;
-          const isActive = selectedTab === index;
+      {/* ✅ iOS extra status bar background */}
+      {Platform.OS === 'ios' && <View style={styles.iosStatusBarPlaceholder} />}
 
-          return (
-            <TouchableOpacity
-              key={index}
-              style={styles.bottomTab}
-              onPress={() => setSelectedTab(index)}
-            >
-              <Icon size={28} color={isActive ? BG : '#4a4a48'} />
-              <Text
-                style={[styles.label, { color: isActive ? BG : '#4a4a48' }]}
+      {/* ✅ Yellow background only top half */}
+      <View style={styles.halfBg} />
+
+      {/* ✅ Main Content */}
+      <SafeAreaView style={styles.mainArea} edges={['left', 'right', 'bottom']}>
+        <View style={{ paddingTop: Platform.OS === 'android' ? insets.top : 0, flex: 1 }}>
+          {renderContent()}
+        </View>
+
+        {/* ✅ Bottom Navigation */}
+        <View style={styles.bottomNav}>
+          {tabs.map((tab, index) => {
+            const Icon = tab.icon;
+            const isActive = tab.route === currentRoute;
+            return (
+              <TouchableOpacity
+                key={index}
+                style={styles.bottomTab}
+                onPress={() => setCurrentRoute(tab.route)}
               >
-                {tab.label}
-              </Text>
-            </TouchableOpacity>
-          );
-        })}
-      </View>
-    </View>
+                <Icon size={28} color={isActive ? BG : '#4a4a48'} />
+                <Text style={[styles.label, { color: isActive ? BG : '#4a4a48' }]}>
+                  {tab.label}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </View>
+      </SafeAreaView>
+    </>
   );
 };
 
 export default Main;
 
 const styles = StyleSheet.create({
+  iosStatusBarPlaceholder: {
+    height: Platform.OS === 'ios' ? 44 : 0,
+    backgroundColor: '#FFD700',
+  },
+  halfBg: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: SCREEN_HEIGHT / 3,
+    backgroundColor: '#FFD700',
+    zIndex: -1,
+  },
+  mainArea: {
+    flex: 1,
+    backgroundColor: 'transparent',
+  },
   bottomNav: {
     width: '100%',
-    height: Platform.OS === 'ios' ? 60 : 50,
+    height: Platform.OS === 'ios' ? 70 : 70,
     position: 'absolute',
     alignSelf: 'center',
     bottom: 0,
+    paddingBottom: Platform.OS === 'ios' ? 10 : 10,
     backgroundColor: '#fff',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
