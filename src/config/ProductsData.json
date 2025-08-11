@@ -137,5 +137,281 @@
         "productId": "1752238489-B4D754B549",
         "productName": "ðŸ¥— Veggie Salad",
         "visibleTime": true
+    }, {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:35:13.923Z",
+                "id": "1752237313-6A00C69F02",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752237313-70F838E4D7/1752237313-6A00C69F02/16de6fb3-7faa-446a-9985-189e639ae648.png",
+                "invntry": 0,
+                "marketPrice": 13,
+                "productPrice": 5,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "unitValue": 1,
+                "updatedAt": "2025-07-19T09:49:19.269Z",
+                "vn": "Apricot Fusion Dessert"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "5",
+            "label": "GST5 [5%]"
+        },
+        "sciName": "Fusion Sweets",
+        "closingTime": "11:59 PM",
+        "includingTAX": true,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752237313-70F838E4D7/1752237313-6A00C69F02/16de6fb3-7faa-446a-9985-189e639ae648.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949966777-1752237264655",
+        "tciName": "Desserts",
+        "mciName": "Food & Beverages",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949966777-1752237264655-1752237270907",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949966777",
+        "productId": "1752237313-70F838E4D7",
+        "productName": "Apricot Fusion Dessert",
+        "visibleTime": true
+    },
+    {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:52:05.848Z",
+                "id": "1752238325-FF95C08D96",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238325-D0CF56730F/1752238325-FF95C08D96/98ca3b0e-fa77-4554-8d17-815bfb0439a0.png",
+                "invntry": 0,
+                "marketPrice": 120,
+                "productPrice": 100,
+                "unit": {
+                    "value": "gm",
+                    "label": "Grams"
+                },
+                "unitValue": 100,
+                "vn": "Aglio e Olio Pasta"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "no-gst",
+            "label": "Non-Taxable"
+        },
+        "sciName": "Italian / Garlic-Based",
+        "closingTime": "11:59 PM",
+        "includingTAX": false,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238325-D0CF56730F/1752238325-FF95C08D96/98ca3b0e-fa77-4554-8d17-815bfb0439a0.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949964995-1752238279123",
+        "tciName": "Food",
+        "mciName": "Pasta",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949964995-1752238279123-1752238305906",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949964995",
+        "productId": "1752238325-D0CF56730F",
+        "productName": "Aglio e Olio Pasta",
+        "visibleTime": true
+    },
+    {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:54:50.323Z",
+                "id": "1752238490-1CEEF6DCD0",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238489-B4D754B549/1752238490-1CEEF6DCD0/6c86566c-ae13-43bd-93b1-1503f976ad4a.png",
+                "invntry": 0,
+                "marketPrice": 130,
+                "productPrice": 110,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "unitValue": 1,
+                "vn": "Veggie Salad"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "no-gst",
+            "label": "Non-Taxable"
+        },
+        "sciName": "Veg Salads",
+        "closingTime": "11:59 PM",
+        "includingTAX": false,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238489-B4D754B549/1752238490-1CEEF6DCD0/6c86566c-ae13-43bd-93b1-1503f976ad4a.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949966777-1752238388978",
+        "tciName": "Desserts",
+        "mciName": "Salads",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949966777-1752238388978-1752238394703",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949966777",
+        "productId": "1752238489-B4D754B549",
+        "productName": "ðŸ¥— Veggie Salad",
+        "visibleTime": true
+    }, {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:35:13.923Z",
+                "id": "1752237313-6A00C69F02",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752237313-70F838E4D7/1752237313-6A00C69F02/16de6fb3-7faa-446a-9985-189e639ae648.png",
+                "invntry": 0,
+                "marketPrice": 13,
+                "productPrice": 5,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "unitValue": 1,
+                "updatedAt": "2025-07-19T09:49:19.269Z",
+                "vn": "Apricot Fusion Dessert"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "5",
+            "label": "GST5 [5%]"
+        },
+        "sciName": "Fusion Sweets",
+        "closingTime": "11:59 PM",
+        "includingTAX": true,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752237313-70F838E4D7/1752237313-6A00C69F02/16de6fb3-7faa-446a-9985-189e639ae648.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949966777-1752237264655",
+        "tciName": "Desserts",
+        "mciName": "Food & Beverages",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949966777-1752237264655-1752237270907",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949966777",
+        "productId": "1752237313-70F838E4D7",
+        "productName": "Apricot Fusion Dessert",
+        "visibleTime": true
+    },
+    {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:52:05.848Z",
+                "id": "1752238325-FF95C08D96",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238325-D0CF56730F/1752238325-FF95C08D96/98ca3b0e-fa77-4554-8d17-815bfb0439a0.png",
+                "invntry": 0,
+                "marketPrice": 120,
+                "productPrice": 100,
+                "unit": {
+                    "value": "gm",
+                    "label": "Grams"
+                },
+                "unitValue": 100,
+                "vn": "Aglio e Olio Pasta"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "no-gst",
+            "label": "Non-Taxable"
+        },
+        "sciName": "Italian / Garlic-Based",
+        "closingTime": "11:59 PM",
+        "includingTAX": false,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238325-D0CF56730F/1752238325-FF95C08D96/98ca3b0e-fa77-4554-8d17-815bfb0439a0.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949964995-1752238279123",
+        "tciName": "Food",
+        "mciName": "Pasta",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949964995-1752238279123-1752238305906",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949964995",
+        "productId": "1752238325-D0CF56730F",
+        "productName": "Aglio e Olio Pasta",
+        "visibleTime": true
+    },
+    {
+        "returnProduct": false,
+        "totalBuyersRated": 0,
+        "variants": [
+            {
+                "alwaysInventory": true,
+                "createdAt": "2025-07-11T12:54:50.323Z",
+                "id": "1752238490-1CEEF6DCD0",
+                "img": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238489-B4D754B549/1752238490-1CEEF6DCD0/6c86566c-ae13-43bd-93b1-1503f976ad4a.png",
+                "invntry": 0,
+                "marketPrice": 130,
+                "productPrice": 110,
+                "unit": {
+                    "value": "pc",
+                    "label": "Piece"
+                },
+                "unitValue": 1,
+                "vn": "Veggie Salad"
+            }
+        ],
+        "status": "active",
+        "brandName": "cafe niloufer",
+        "tax": {
+            "value": "no-gst",
+            "label": "Non-Taxable"
+        },
+        "sciName": "Veg Salads",
+        "closingTime": "11:59 PM",
+        "includingTAX": false,
+        "totalOrders": 0,
+        "account_id": "DAGC52235603021",
+        "variantsCount": 1,
+        "productImage": "https://delibo-app-storage-prod.s3.ap-south-1.amazonaws.com/org-bucket/sellers-account/DAGC52235603021/productImages/1752238489-B4D754B549/1752238490-1CEEF6DCD0/6c86566c-ae13-43bd-93b1-1503f976ad4a.png",
+        "openingTime": "12:00 AM",
+        "mci": "TCI-1725949966777-1752238388978",
+        "tciName": "Desserts",
+        "mciName": "Salads",
+        "exchange": false,
+        "preOrder": false,
+        "sci": "TCI-1725949966777-1752238388978-1752238394703",
+        "returnExchangeValue": 0,
+        "tci": "TCI-1725949966777",
+        "productId": "1752238489-B4D754B549",
+        "productName": "ðŸ¥— Veggie Salad",
+        "visibleTime": true
     }
 ]

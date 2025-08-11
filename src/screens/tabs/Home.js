@@ -34,14 +34,14 @@ const Home = () => {
 
   return (
     <SafeAreaView style={styles.container} edges={['left', 'right', 'bottom']}>
-      
-      {/* Gradient Background on Top */}
+      {/* Gradient Background */}
       <LinearGradient
-        colors={['#FFD700', '#FFA500']}
+        colors={['#FFA41B','#FFB72B']}
         style={styles.gradientBg}
       />
 
-      <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+      {/* Top Non-scrollable Section */}
+      <View style={styles.headerSection}>
         <LocationHeader />
 
         <View style={styles.searchBox}>
@@ -55,8 +55,18 @@ const Home = () => {
           />
         </View>
 
-        <Category categories={categories} />
+        {/* Fixed Category Bar */}
+        <View style={styles.categoryWrapper}>
+          <Category categories={categories} />
+        </View>
+      </View>
 
+      {/* Scrollable Products Section */}
+      <ScrollView
+        style={styles.scrollArea}
+        contentContainerStyle={styles.scrollContent}
+        showsVerticalScrollIndicator={false}
+      >
         <Product products={ProductsData} />
       </ScrollView>
     </SafeAreaView>
@@ -64,22 +74,33 @@ const Home = () => {
 };
 
 export default Home;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#FFD700',
     position: 'relative',
   },
   gradientBg: {
     ...StyleSheet.absoluteFillObject,
-    height: height * 0.38, // Gradient only for top part
+    height: height / 5,
     zIndex: -1,
+  },
+  headerSection: {
+    paddingHorizontal: 16,
+    paddingBottom: 10,
+    backgroundColor: 'transparent',
+  },
+  searchBox: {
+    marginVertical: 10,
+  },
+  categoryWrapper: {
+    paddingVertical: 8,
+  },
+  scrollArea: {
+    flex: 1,
   },
   scrollContent: {
     paddingHorizontal: 16,
     paddingBottom: 20,
-  },
-  searchBox: {
-    marginVertical: 10,
   },
 });

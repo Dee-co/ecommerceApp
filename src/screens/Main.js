@@ -100,15 +100,15 @@ export default Main;
 const styles = StyleSheet.create({
   iosStatusBarPlaceholder: {
     height: Platform.OS === 'ios' ? 44 : 0,
-    backgroundColor: '#FFD700',
+    backgroundColor: '#FFA41B',
   },
   halfBg: {
     position: 'absolute',
     top: 0,
     left: 0,
     right: 0,
-    height: SCREEN_HEIGHT / 3,
-    backgroundColor: '#FFD700',
+    height: SCREEN_HEIGHT / 4,
+    backgroundColor: '#FFA41B',
     zIndex: -1,
   },
   mainArea: {
