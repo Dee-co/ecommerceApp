@@ -18,6 +18,7 @@ import OrderDetails from '../screens/OrderDetail';
 import EditProfile from '../screens/EditProfile';
 import Address from '../screens/Address';
 import AddAddress from '../screens/AddAddress';
+import Maps from '../screens/Maps';
 const Stack = createStackNavigator();
 const MainNavigator = () => {
   return (
@@ -61,13 +62,14 @@ const MainNavigator = () => {
            <Stack.Screen
             name="Address"
             options={{ headerShown: false,}}
-            component={Address}
+            component={Maps}
           />
           <Stack.Screen
             name="AddAddress"
             options={{ headerShown: false,}}
             component={AddAddress}
           />
+
         </Stack.Navigator>
       </NavigationContainer>
   );

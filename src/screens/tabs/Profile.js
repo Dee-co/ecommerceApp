@@ -69,7 +69,7 @@ const Profile = () => {
 
       {/* Logout Button */}
       <LinearGradient colors={['#e7eaee','#f3f4f6']} style={styles.btn}>
-        <TouchableOpacity style={[styles.btn, styles.editBtn]}>
+        <TouchableOpacity style={[styles.btn, styles.editBtn]} onPress={() => navigation.navigate('Address')}>
           <MapPinHouse color="black" size={16} style={{ marginRight: 6 }} />
           <Text style={styles.editText}>Address</Text>
         </TouchableOpacity>
